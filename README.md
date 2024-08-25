@@ -24,8 +24,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone <repository-link>
-    cd <repository-name>
+    git clone https://github.com/yusufafify/react_vite_cypress.git
+    cd react_vite_cypress
     ```
 
 2. Install dependencies:
@@ -38,7 +38,7 @@ Ensure you have the following installed:
     npm run dev
     ```
 
-4. Open the application in your browser at `http://localhost:3000`.
+4. Open the application in your browser at `http://localhost:5742`.
 
 ## Running Tests
 
