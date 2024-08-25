@@ -38,7 +38,7 @@ Ensure you have the following installed:
     npm run dev
     ```
 
-4. Open the application in your browser at `http://localhost:5742`.
+4. Open the application in your browser at `http://localhost:5173`.
 
 ## Running Tests
 
