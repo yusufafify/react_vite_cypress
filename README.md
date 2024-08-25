@@ -52,10 +52,5 @@ To run the Cypress tests locally:
     ```
 
 2. Click on the desired test spec to run the test cases in the Cypress Test Runner.
+![Screenshot 2024-08-25 222208](https://github.com/user-attachments/assets/1eae4483-4a86-43a5-8f92-f468feaf181b)
 
-### Running Tests in Headless Mode
-
-To run the tests in headless mode and generate coverage reports:
-
-```bash
-npm run test:headless
