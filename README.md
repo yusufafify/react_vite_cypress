@@ -1,8 +1,61 @@
-# React + Vite
+# React Vite Application with Cypress Testing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a simple React application built using Vite and TypeScript, styled with Tailwind CSS, and tested using Cypress. The purpose of the project is to demonstrate end-to-end testing with real-world scenarios, ensuring the application is robust and ready for production.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **React Vite**: A fast development environment for building React applications.
+- **TypeScript**: Type-safe code with better maintainability.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Cypress**: End-to-end testing framework to ensure application stability and reliability.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (>= 14.x)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone <repository-link>
+    cd <repository-name>
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+4. Open the application in your browser at `http://localhost:3000`.
+
+## Running Tests
+
+### Running Cypress Tests Locally
+
+To run the Cypress tests locally:
+
+1. Open the Cypress test runner:
+    ```bash
+    npx cypress open
+    ```
+
+2. Click on the desired test spec to run the test cases in the Cypress Test Runner.
+
+### Running Tests in Headless Mode
+
+To run the tests in headless mode and generate coverage reports:
+
+```bash
+npm run test:headless
